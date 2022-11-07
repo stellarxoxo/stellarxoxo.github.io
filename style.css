@@ -26,6 +26,16 @@ a {
     text-decoration: none;
 }
 
+/* INDEX.HTML */
+
+.index_main {
+    margin-left: 29%;
+}
+
+.index_image {
+    width: 8%;
+}
+
 .header {
 
     margin-left: 38%;
@@ -43,9 +53,18 @@ a {
 
 .title {
     font-size: 30px;
+    color: var(--text-color);
+    line-height: 150%;
+}
 
+.smalltitle {
+    font-size: 23px;
     color: var(--text-color)
+}
 
+.data {
+    font-size: 14px;
+    color: var(--sub)
 }
 
 .revoke {
