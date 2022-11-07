@@ -1,0 +1,93 @@
+/*body {
+    background-color: rgb(39, 41, 52);
+  }
+*/
+
+:root {
+    --bg-color: #18181a;
+    --main-color: #e4609b;
+    --caret-color: #e4609b;
+    --sub-color: #47bac0;
+    --sub-alt-color: #0f0f10;
+    --text-color: #fff;
+    --sub: rgb(204, 204, 204);
+    --error-color: #fff591;
+    --error-extra-color: #b6af68;
+    --colorful-error-color: #fff591;
+    --colorful-error-extra-color: #b6af68;
+}
+
+
+body {
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+
+    margin-left: 38%;
+    margin-top: 6%;
+    width: 30%;
+    font-family: "Arial", Times, serif;
+    line-height: 150%;
+
+}
+
+.lingo {
+    font-size: 14px;
+    color: var(--sub)
+}
+
+.title {
+    font-size: 30px;
+
+    color: var(--text-color)
+
+}
+
+.revoke {
+    color: var(--sub)
+}
+
+.need_to_know {
+    font-size: 23px;
+    color: var(--text-color)
+}
+
+.ai {
+    font-size: 14px;
+    color: var(--sub)
+}
+
+.ntk_list {
+    font-size: 14px;
+    color: var(--sub)
+}
+
+.conditions {
+    font-size: 23px;
+    color: var(--text-color)
+}
+
+.applicable_law {
+    font-size: 23px;
+    color: var(--text-color)
+}
+
+.applicable_law_content {
+    font-size: 14px;
+    color: var(--sub)
+}
+
+.user_account {
+    font-size: 23px;
+    color: var(--text-color)
+}
+
+.user_account_content {
+    font-size: 14px;
+    color: var(--sub)
+}
