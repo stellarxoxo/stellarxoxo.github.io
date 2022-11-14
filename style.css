@@ -28,6 +28,16 @@ a {
 
 /* INDEX.HTML */
 
+nav {
+    background-color: rgb(145, 70, 255);
+    color: var(--main-color);
+}
+
+.navbar_list {
+    background-color: var(--bg-color);
+    color: var(--main-color);
+}
+
 .index_main {
     margin-left: 29%;
 }
